@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    background: black;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 6em;
+    padding: 10%;
+}
+
+#menu ul {
+    list-style-type: none;
+}
