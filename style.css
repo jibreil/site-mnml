@@ -37,3 +37,38 @@ code {
 ::-webkit-scrollbar {
     display: none;
 }
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: black;
+    position: sticky;
+    top: 0;
+}
+
+li.menu {
+    float: left;
+}
+
+li.menu a {
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+li.menu a:hover {
+    background-color: #111;
+}
+
+#active {
+    background-color: #a074c4;
+    color: black !important;
+}
+
+.menu a {
+    color: #a074c4 !important;
+}
