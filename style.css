@@ -4,10 +4,36 @@ body {
     background: black;
     color: white;
     font-family: 'Open Sans', sans-serif;
-    font-size: 6em;
+    font-size: 1.5em;
     padding: 10%;
 }
 
-#menu ul {
-    list-style-type: none;
+a:link {
+    color: #b390d0;
+}
+
+a:visited {
+    color: #c6abdb;
+}
+
+a:hover {
+    color: #a074c4;
+}
+
+blockquote {
+    border-left: 0.2em solid #b8b8b8;
+    padding-left: 0.6em;
+    color: #b8b8b8;
+    margin: 0;
+}
+
+code {
+    display: block;
+    white-space: pre-line;
+    background: #333;
+    padding: 2%;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
