@@ -41,7 +41,7 @@ code {
 ul.menu {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 1% 0px;
     overflow: hidden;
     background: black;
     position: sticky;
@@ -67,6 +67,7 @@ li.menu a:hover {
 #active {
     background-color: #a074c4;
     color: black !important;
+    border-radius: 0.4em;
 }
 
 .menu a {
