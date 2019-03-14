@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 body {
     background: black;
-    color: white;
+    color: #ebebeb;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5em;
     padding: 10%;
@@ -32,10 +36,6 @@ code {
     white-space: pre-line;
     background: #333;
     padding: 2%;
-}
-
-::-webkit-scrollbar {
-    display: none;
 }
 
 ul.menu {
