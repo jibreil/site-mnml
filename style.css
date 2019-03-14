@@ -50,6 +50,7 @@ ul.menu {
 
 li.menu {
     float: left;
+    padding: 0em 0.25em;
 }
 
 li.menu a {
@@ -58,6 +59,7 @@ li.menu a {
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
+    border-radius: 0.4em;
 }
 
 li.menu a:hover {
@@ -67,9 +69,14 @@ li.menu a:hover {
 #active {
     background-color: #a074c4;
     color: black !important;
-    border-radius: 0.4em;
 }
 
 .menu a {
     color: #a074c4 !important;
+}
+
+@media (max-width: 599px) {
+    body {
+        font-size: 1em;
+    }
 }
