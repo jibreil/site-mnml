@@ -46,6 +46,7 @@ code.menu {
 
 a.menu {
     color: #c6abdb !important;
+    text-decoration: none;
 }
 
 @media (max-width: 599px) {
