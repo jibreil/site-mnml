@@ -9,7 +9,7 @@ body {
     color: #ebebeb;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5em;
-    padding: 10%;
+    padding: 5em;
 }
 
 a:link {
@@ -35,7 +35,7 @@ code {
     display: block;
     white-space: pre-line;
     background: #333;
-    padding: 2%;
+    padding: 1em;
     margin: 1em 0px;
     border-radius: 0.5em;
 }
@@ -51,7 +51,7 @@ a.menu {
 @media (max-width: 599px) {
     body {
         font-size: 1em;
-        padding: 5%;
+        padding: 1em;
     }
     code {
         padding: 1.25em;
@@ -59,8 +59,4 @@ a.menu {
     code.menu {
         font-size: 1.2em;
     }
-}
-
-#landing {
-    padding: 20% 0px;
 }
