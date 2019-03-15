@@ -9,22 +9,19 @@
 </head>
 
 <body>
-    <code class="menu">~ $ ls -l elements/
+    <code class="menu">~ $ ls -l public_html/
 
-        -rw-r--r-- <a class="menu" href="#about">about.txt</a>
-        -rw-r--r-- <a class="menu" href="#headings">headings.txt</a>
-        -rw-r--r-- <a class="menu" href="#paragraphs">paragraphs.txt</a>
-        -rw-r--r-- <a class="menu" href="#blockquotes">blockquotes.txt</a>
-        -rw-r--r-- <a class="menu" href="#lists">lists.txt</a>
-        -rw-r--r-- <a class="menu" href="#inline">inline.txt</a>
-        -rw-r--r-- <a class="menu" href="#images">images.txt</a>
+        -rw-r--r-- <a class="menu" href="index.html">index.html</a>
+        -rw-r--r-- <a class="menu" href="rice.html">rice.html</a>
+        -rw-r--r-- <a class="menu" href="elements.html">elements.html</a>
+        -rw-r--r-- <a class="menu" href="about.html">about.html</a>
+
+        ~ $ cat elements.html
     </code>
-
-    <code>~ $ cat about.txt</code>
-    <p>this is a test page filled with common HTML elements to be used to provide visual feedback whilst building CSS
+    <p>This is a test page filled with common HTML elements to be used to provide visual feedback whilst building CSS
         systems and frameworks</p>
-
-    <code id="headings">~ $ cat headings.txt</code>
+    <h1>Headings</h1>
+    <hr>
     <h1>Heading 1</h1>
     <h2>Heading 2</h2>
     <h3>Heading 3</h3>
@@ -32,13 +29,15 @@
     <h5>Heading 5</h5>
     <h6>Heading 6</h6>
 
-    <code id="paragraphs">~ $ cat paragraphs.txt</code>
+    <h1>Paragraphs</h1>
+    <hr>
     <p>A paragraph (from the Greek paragraphos, “to write beside” or “written beside”) is a self-contained unit of a
         discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences.
         Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing,
         used to organize longer prose.</p>
 
-    <code id="blockquotes">~ $ cat blockquotes.txt</code>
+    <h1>Blockquotes</h1>
+    <hr>
     <blockquote>
         <p>A block quotation (also known as a long quotation or extract) is a quotation in a written document,
             that is set off from the main text as a paragraph, or block of text.</p>
@@ -46,7 +45,8 @@
             quotation. It may or may not include a citation, usually placed at the bottom.</p>
     </blockquote>
 
-    <code id="lists">~ $ cat lists.txt</code>
+    <h1>Lists</h1>
+    <hr>
     <ol>
         <li>both</li>
         <li>ordered</li>
@@ -57,7 +57,15 @@
         <li>lists</li>
     </ul>
 
-    <code id="inline">~ $ cat inline.txt</code>
+    <h1>Code</h1>
+    <hr>
+    <code>#!/bin/bash
+        echo "Hello World"
+        echo "I'm alive!"
+    </code>
+
+    <h1>Inline elements</h1>
+    <hr>
     <p><a href="#!">This is a text link</a>.</p>
     <p><strong>Strong is used to indicate strong importance.</strong></p>
     <p><em>This text has added emphasis.</em></p>
@@ -70,7 +78,8 @@
     <p>Subscript for things like H<sub>2</sub>O.</p>
     <p><small>This small text is small for for fine print, etc.</small></p>
 
-    <code id="images">~ $ cat images.txt</code>
+    <h1>Image</h1>
+    <hr>
     <code>feh kitty.png</code>
     <img src="http://placekitten.com/1200/750" alt="kitty" style="max-width: 100%;">
 
