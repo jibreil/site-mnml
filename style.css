@@ -54,9 +54,11 @@ a.menu {
         font-size: 1em;
         padding: 1em;
     }
+
     code {
         padding: 1.25em;
     }
+
     code.menu {
         font-size: 1.2em;
     }
