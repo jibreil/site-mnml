@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-::-webkit-scrollbar {
-    display: none;
-}
-
 body {
     background: black;
     color: #ebebeb;
