@@ -51,6 +51,33 @@ a.menuItem {
     font-size: 2em;
 }
 
+.images {
+    padding: 3%;
+}
+
+.riceImg {
+    max-width: 100%;
+    border-radius: 0.5em;
+}
+
+table,
+th,
+td {
+    border: 1px dotted white;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 0.5em;
+}
+
+#table {
+    padding: 1em;
+}
+
+.inlineCode {
+    display: inline;
+    padding: 0.2em 0.3em;
+}
+
 @media (max-width: 599px) {
     body {
         font-size: 1em;
@@ -79,5 +106,9 @@ a.menuItem {
 
     .content {
         padding: 0;
+    }
+
+    .riceImg {
+        border-radius: 0.2em;
     }
 }

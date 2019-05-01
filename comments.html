@@ -2,35 +2,14 @@
 <html lang="en-au">
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="3">
     <title>jibreil:comments</title>
     <link rel="stylesheet" href="websystems.css">
     <link rel="icon" type="image/png" href="favicon.png">
     <meta name="viewport" content="width=device-width">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
-
-<!--
-technical aspects
-    structure
-    css selectors/ids and why
-aesthetics
-    what effects trying to achieve
-accessibility
-    how is it usable by disabled users
-
-acknowledge images downloaded from the internet (comment)
-at least
-    5 css classes
-    1 css id
-    1 div per page
-    1 span per page
-    1 table
-    1 list
-    1 image
-
-back buttons
-images less than 100kb
--->
 
 <body>
     <div class="content">
@@ -42,22 +21,68 @@ images less than 100kb
         </div>
 
         <h1>Technical aspects</h1>
+
+        <p>My site is structured in the traditional single page format which
+            satisfies the simple requirements.</p>
+
+        <p>I have also used a number of CSS classes and IDs with their
+            respective selectors to achieve my desired appearance, for example the
+            <code class="inlineCode">menu</code> and <code class="inlineCode">menud</code> classes are used on each page
+            to apply
+            specific styling to the menu and the <code class="inlineCode">home</code> ID selector is used to apply the
+            unique
+            formatting to the home page.</p>
+
+        <h2>Some more about this site</h2>
+
         <ul>
-            <li><a href="https://www.w3.org/WAI/fundamentals/accessibility-intro/">accessible</a> for everyone</li>
             <li>doesn't load any massive images or scripts</li>
             <li>extremely legible</li>
-            <li>light af (6KB without images, 99.8% less than the <a href="https://www.google.com/">Google home
-                    page</a>!)
-            </li>
-            <li>looks good, just because you make a lightweight site doesn't mean it has to be devoid of any colour</li>
+            <li>lightweight af (8KB without images, 99.3% less than the <a href="https://www.google.com/">Google home
+                    page</a>!)</li>
+            <ul id="table">
+                <li>
+                    <table>
+                        <tr>
+                            <th></th>
+                            <th>this entire site</th>
+                            <th>google home page</th>
+                        </tr>
+                        <tr>
+                            <td>size (KB)</td>
+                            <td>8</td>
+                            <td>1100</td>
+                        </tr>
+                    </table>
+                </li>
+            </ul>
             <li>no JS or jQuery</li>
             <li>no tracking or analytics</li>
             <li>only uses free and open source assets</li>
+            <li>successfully validated by W3C (HTML and CSS)</li>
             <li>will fit and look the same on pretty much any device</li>
-            <li><s>is served over a secure HTTPS connection</s> it would be if this server had its shit together</li>
+            <li><s>is served over a secure HTTPS connection</s></li>
+            <ul>
+                <li>it would be if this server had its shit together</li>
+            </ul>
         </ul>
+
         <h1>Aesthetics</h1>
+        <ul>
+            <li>the 'dark mode' colour scheme is easier on the eyes and reduces
+                eye fatigue and strain that is commonly seen after prolonged
+                exposure to blindingly light screens</li>
+        </ul>
+
         <h1>Accessibility</h1>
+        <ul>
+            <li>the site is accessible for everyone as it adheres to the <a
+                    href="https://www.w3.org/WAI/test-evaluate/preliminary/">W3C
+                    accessibility guidelines</a></li>
+            <li>the site also meets the <a href="https://webaim.org/blog/wcag-2-0-and-link-colors/">WCAG
+                    guidelines</a> on content readability in regards to colours
+                and contrast.</li>
+        </ul>
     </div>
 </body>
 
