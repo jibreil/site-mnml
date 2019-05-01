@@ -90,6 +90,15 @@ footer {
     text-align: center;
 }
 
+.secret {
+    text-align: center;
+    padding: 5%;
+}
+
+#secret {
+    max-width: 100%;
+}
+
 @media (max-width: 600px) {
     body {
         font-size: 1em;
