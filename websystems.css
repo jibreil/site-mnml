@@ -1,9 +1,13 @@
 body {
-    background: black;
+    background: #151718;
     color: #ebebeb;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
+    font-size: 1.2em;
     padding: 5em;
+}
+
+.content {
+    padding: 10%;
 }
 
 a:link {
@@ -34,6 +38,19 @@ code {
     border-radius: 0.5em;
 }
 
+a.menuItem {
+    color: #c6abdb !important;
+    text-decoration: none;
+}
+
+.menud {
+    font-size: 1em;
+}
+
+#home {
+    font-size: 2em;
+}
+
 @media (max-width: 599px) {
     body {
         font-size: 1em;
@@ -55,21 +72,12 @@ code {
     #homeh {
         font-size: 1.1em !important;
     }
-    
+
     #home {
         font-size: 1.1em !important;
     }
-}
 
-a.menu {
-    color: #c6abdb !important;
-    text-decoration: none;
-}
-
-.menud {
-    font-size: 1.2em;
-}
-
-#home {
-    font-size: 2em;
+    .content {
+        padding: 0;
+    }
 }

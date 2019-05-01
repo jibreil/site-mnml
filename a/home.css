@@ -1,0 +1,30 @@
+body {
+    background: #151718;
+    color: #ebebeb;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    padding: 5em;
+    text-align: center;
+}
+
+a:link {
+    color: #b390d0;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #c6abdb;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #a074c4;
+    text-decoration: none;
+}
+
+@media (max-width: 599px) {
+    body {
+        font-size: 1em;
+        padding: 1em;
+    }
+}
