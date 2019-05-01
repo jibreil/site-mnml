@@ -82,6 +82,14 @@ td {
     padding: 0.2em 0.3em;
 }
 
+.footer {
+    color: #c6abdb
+}
+
+footer {
+    text-align: center;
+}
+
 @media (max-width: 600px) {
     body {
         font-size: 1em;
