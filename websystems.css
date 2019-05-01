@@ -118,6 +118,9 @@ td {
         font-size: 1em;
         padding: 2em;
     }
+}
+
+@media (max-width: 900px) {
 
     #homeh {
         font-size: 1.1em;
